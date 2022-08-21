@@ -8,8 +8,8 @@ declare type Frequency = {
 declare type Runway = {
     id: string;
     airportIdentifier: string;
-    length: string;
-    width: string;
+    length: number;
+    width: number;
     surface: string;
     lighted: boolean;
     closed: boolean;
@@ -25,12 +25,12 @@ declare type Airfield = {
     name: string;
     latitude: number;
     longitude: number;
-    elevation: string;
+    elevation: number;
     continent: string;
     country: string;
     region: string;
     municipality: string;
-    scheduledService: string;
+    scheduledService: boolean;
     gpsCode: string;
     iataCode: string;
     localCode: string;
