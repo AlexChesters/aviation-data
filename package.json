@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "static aviation data (e.g. airfields, aircraft names)",
   "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "test": "jest && eslint src test",
     "watch": "tsc --watch",
