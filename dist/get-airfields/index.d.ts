@@ -1,0 +1,41 @@
+declare type Frequency = {
+    id: string;
+    identifier: string;
+    type: string;
+    description: string;
+    frequency: string;
+};
+declare type Runway = {
+    id: string;
+    airportIdentifier: string;
+    length: string;
+    width: string;
+    surface: string;
+    lighted: boolean;
+    closed: boolean;
+    leIdent: string;
+    leDisplacedThreshold: string;
+    heIdent: string;
+    heDisplacedThreshold: string;
+};
+declare type Airfield = {
+    id: string;
+    identifier: string;
+    type: string;
+    name: string;
+    latitude: number;
+    longitude: number;
+    elevation: string;
+    continent: string;
+    country: string;
+    region: string;
+    municipality: string;
+    scheduledService: string;
+    gpsCode: string;
+    iataCode: string;
+    localCode: string;
+    frequencies: Frequency[];
+    runways: Runway[];
+};
+declare const _default: () => Promise<Airfield[]>;
+export default _default;
