@@ -146,7 +146,7 @@ const airports = airportsData.map((item) => {
     country,
     region,
     municipality,
-    scheduledService: scheduledService === 'true',
+    scheduledService: scheduledService === 'yes',
     gpsCode,
     iataCode,
     localCode,
