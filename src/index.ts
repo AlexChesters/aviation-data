@@ -1,1 +1,3 @@
-console.log('hello, world!')
+import getAircraft from './get-aircraft'
+
+export { getAircraft }
