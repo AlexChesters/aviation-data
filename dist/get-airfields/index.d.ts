@@ -1,11 +1,11 @@
-declare type Frequency = {
+export declare type Frequency = {
     id: string;
     identifier: string;
     type: string;
     description: string;
     frequency: string;
 };
-declare type Runway = {
+export declare type Runway = {
     id: string;
     airportIdentifier: string;
     length: number;
@@ -18,7 +18,7 @@ declare type Runway = {
     heIdent: string;
     heDisplacedThreshold: string;
 };
-declare type Airfield = {
+export declare type Airfield = {
     id: string;
     identifier: string;
     type: string;

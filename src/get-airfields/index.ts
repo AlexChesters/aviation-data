@@ -6,7 +6,7 @@ const DATA_DIRECTORY = path.join(__dirname, '../../', 'data')
 
 const readFile = promisify(fs.readFile)
 
-type Frequency = {
+export type Frequency = {
   id: string,
   identifier: string,
   type: string,
@@ -14,7 +14,7 @@ type Frequency = {
   frequency: string
 }
 
-type Runway = {
+export type Runway = {
   id: string,
   airportIdentifier: string,
   length: number,
@@ -28,7 +28,7 @@ type Runway = {
   heDisplacedThreshold: string
 }
 
-type Airfield = {
+export type Airfield = {
   id: string,
   identifier: string,
   type: string,

@@ -1,4 +1,4 @@
-declare type Aircraft = {
+export declare type Aircraft = {
     name: string;
     value: string;
     icaoCode: string;

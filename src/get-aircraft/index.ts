@@ -6,7 +6,7 @@ const DATA_DIRECTORY = path.join(__dirname, '../../', 'data')
 
 const readFile = promisify(fs.readFile)
 
-type Aircraft = {
+export type Aircraft = {
   name: string,
   value: string,
   icaoCode: string
