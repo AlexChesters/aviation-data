@@ -5,11 +5,6 @@
     "icaoCode": "A306"
   },
   {
-    "name": "Airbus A300F",
-    "value": "Airbus A300F",
-    "icaoCode": "A306"
-  },
-  {
     "name": "Airbus A300ST",
     "value": "Airbus A300ST",
     "icaoCode": "A3ST"
@@ -45,23 +40,8 @@
     "icaoCode": "A321"
   },
   {
-    "name": "Airbus A321 PCF",
-    "value": "Airbus A321 PCF",
-    "icaoCode": "A321"
-  },
-  {
     "name": "Airbus A321neo",
     "value": "Airbus A321neo",
-    "icaoCode": "A21N"
-  },
-  {
-    "name": "Airbus A321neo LR",
-    "value": "Airbus A321neo LR",
-    "icaoCode": "A21N"
-  },
-  {
-    "name": "Airbus A321neo XLR",
-    "value": "Airbus A321neo XLR",
     "icaoCode": "A21N"
   },
   {
@@ -175,18 +155,8 @@
     "icaoCode": "B721"
   },
   {
-    "name": "Boeing 727-100QC",
-    "value": "Boeing 727-100QC",
-    "icaoCode": "B721"
-  },
-  {
     "name": "Boeing 727-200",
     "value": "Boeing 727-200",
-    "icaoCode": "B722"
-  },
-  {
-    "name": "Boeing 727-200F",
-    "value": "Boeing 727-200F",
     "icaoCode": "B722"
   },
   {
@@ -210,18 +180,8 @@
     "icaoCode": "B737"
   },
   {
-    "name": "Boeing 737-700BDSF",
-    "value": "Boeing 737-700BDSF",
-    "icaoCode": "B737"
-  },
-  {
     "name": "Boeing 737-800",
     "value": "Boeing 737-800",
-    "icaoCode": "B738"
-  },
-  {
-    "name": "Boeing 737-800BCF",
-    "value": "Boeing 737-800BCF",
     "icaoCode": "B738"
   },
   {
@@ -235,28 +195,13 @@
     "icaoCode": "B744"
   },
   {
-    "name": "Boeing 747-400F",
-    "value": "Boeing 747-400F",
-    "icaoCode": "B744"
-  },
-  {
     "name": "Boeing 747-8",
     "value": "Boeing 747-8",
     "icaoCode": "B748"
   },
   {
-    "name": "Boeing 747-8F",
-    "value": "Boeing 747-8F",
-    "icaoCode": "B748"
-  },
-  {
     "name": "Boeing 757-200",
     "value": "Boeing 757-200",
-    "icaoCode": "B752"
-  },
-  {
-    "name": "Boeing 757-200F",
-    "value": "Boeing 757-200F",
     "icaoCode": "B752"
   },
   {
@@ -270,13 +215,8 @@
     "icaoCode": "B762"
   },
   {
-    "name": "Boeing 767-300ER",
-    "value": "Boeing 767-300ER",
-    "icaoCode": "B763"
-  },
-  {
-    "name": "Boeing 767-300F",
-    "value": "Boeing 767-300F",
+    "name": "Boeing 767-300",
+    "value": "Boeing 767-300",
     "icaoCode": "B763"
   },
   {
@@ -337,11 +277,6 @@
   {
     "name": "Bombardier Dash 8 Q400",
     "value": "Bombardier Dash 8 Q400",
-    "icaoCode": "DH8D"
-  },
-  {
-    "name": "Bombardier Dash 8 Q400F",
-    "value": "Bombardier Dash 8 Q400F",
     "icaoCode": "DH8D"
   },
   {
@@ -440,11 +375,6 @@
     "icaoCode": "KODI"
   },
   {
-    "name": "Daher TBM 900",
-    "value": "Daher TBM 900",
-    "icaoCode": "TBM9"
-  },
-  {
     "name": "Daher TBM 930",
     "value": "Daher TBM 930",
     "icaoCode": "TBM9"
@@ -535,11 +465,6 @@
     "icaoCode": "E145"
   },
   {
-    "name": "Embraer ERJ-145XR",
-    "value": "Embraer ERJ-145XR",
-    "icaoCode": "E145"
-  },
-  {
     "name": "Embraer Legacy 650",
     "value": "Embraer Legacy 650",
     "icaoCode": "E35L"
@@ -595,11 +520,6 @@
     "icaoCode": "L101"
   },
   {
-    "name": "Lockheed L-1011F",
-    "value": "Lockheed L-1011F",
-    "icaoCode": "L101"
-  },
-  {
     "name": "Lockheed Lodestar 18",
     "value": "Lockheed Lodestar 18",
     "icaoCode": "L18"
@@ -638,11 +558,6 @@
     "name": "Pilatus PC-6",
     "value": "Pilatus PC-6",
     "icaoCode": "PC6T"
-  },
-  {
-    "name": "Piper Archer",
-    "value": "Piper Archer",
-    "icaoCode": "P28A"
   },
   {
     "name": "Piper Arrow III",
@@ -685,8 +600,8 @@
     "icaoCode": "PA30"
   },
   {
-    "name": "Piper Warrior II",
-    "value": "Piper Warrior II",
+    "name": "Piper PA-28",
+    "value": "Piper PA-28",
     "icaoCode": "P28A"
   },
   {
