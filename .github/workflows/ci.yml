@@ -9,13 +9,17 @@ jobs:
   build-and-test:
     runs-on: ubuntu-20.04
 
+    strategy:
+      matrix:
+        node-version: [16.x, 18.x]
+
     steps:
       - name: checkout code
         uses: actions/checkout@v2
-      - name: set up node.js
+      - name: set up node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: ${{ matrix.node-version }}
       - name: install dependencies
         run: npm ci
       - name: run tests
